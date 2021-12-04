@@ -38,7 +38,8 @@ const onIndexDestinationsSuccess = (responseData) => {
 
 	destinations.forEach((destination) => {
 		destinationHtml += `
-        <div>
+        <div class="col-lg-4 col-sm-6">
+				<div class"destinationCardDisplay"
          <h4>Place: ${destination.place}<h4/>
         <p>Month Traveled: ${destination.monthTraveled}</p>
         <p>Days Stayed: ${destination.daysStayed}</p>
@@ -54,6 +55,8 @@ const onIndexDestinationsSuccess = (responseData) => {
             <input type="text" name="destination[review]" placeholder="Enter Review">
             <button>Update Destination</button>
           </form>
+					</div>
+					</div>
           <hr>
         </div>
       `;

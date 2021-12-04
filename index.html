@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<i class="fas fa-hiking"></i>
+		<i class="fas fa-hiking fa-spin"></i>
 		<title>Destination Blog
 		</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -31,6 +33,7 @@
        <div class="card-body">
 			<form id="sign-up" class="border">
 				<!-- to group multiple inputs together in our form -->
+
 				<fieldset>
 					<legend>New User</legend>
 					<!-- <label for="em">Email:</label> -->
@@ -114,21 +117,14 @@
 				<fieldset>
 					<legend>Change Password</legend>
 					<label for="old">Old Password:</label>
-					<input
-						type="password"
-						name="passwords[old]"
-						id="old"
-						placeholder="Enter Old Password"
-						required
-					/>
+					<input type="password" name="passwords[old]" id="old" placeholder="Enter Old Password" required/>
 					<label for="new">New Password:</label>
 					<input
 						type="password"
 						name="passwords[new]"
 						id="new"
 						placeholder="Enter New Password"
-						required
-					/>
+						required/>
 					<button class="btn btn-primary">Change</button>
 				</fieldset>
 			</form>
@@ -139,6 +135,10 @@
 					<button class="btn btn-primary">Sign Out</button>
 				</fieldset>
 			</form>
+				</li>
+			</ul>
+		</div>
+		</div>
 		</nav>
 
 
@@ -148,10 +148,11 @@
 					<h2>Create One Destination</h2>
 					<form id="destinations-create" action="">
 						<input type="text" name="destination[place]" placeholder="Enter Destination" />
-						<input type="text" name="destination[monthTraveled]" placeholder="Enter The Month Traveled" />
-						<input type="text" name="destination[daysStayed]" placeholder="Enter How Many Days Stayed" />
-						<input type="text" name="destination[moneySpent]" placeholder="Enter How Much Money Spent" />
-						<input type="text" name="destination[review]" placeholder="Review Your Stay" />
+						<input type="text" name="destination[monthTraveled]" placeholder="Month Traveled" />
+						<input type="text" name="destination[daysStayed]" placeholder="Days Stayed" />
+						<input type="text" name="destination[moneySpent]" placeholder="Money Spent" />
+						<input type="text" name="destination[review]" rows="4"placeholder="Review Your Stay" />
+						<!-- <textarea id="form_message" name="destination[review]" class="form-control" placeholder="Review Your Stay *" rows="4" required="required" data-error="Make a Review."></textarea> -->
 						<button class="btn second">Create</button>
 					</form>
 					

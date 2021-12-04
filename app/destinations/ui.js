@@ -16,7 +16,9 @@ const onCreateDestinationSuccess = (responseData) => {
 	$('form').trigger('reset');
 };
 const onUpdateDestinationSuccess = () => {
-	$('#destinations-display').text('Destination was Updated, click get all to see');
+	$('#destinations-display').text(
+		'Destination was Updated, click get all to see'
+	);
 	$('#destinations-display').addClass('text-success');
 
 	setTimeout(() => {

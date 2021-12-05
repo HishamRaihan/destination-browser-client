@@ -13,14 +13,7 @@ $(() => {
 	$('#destinations-show').on('submit', destinationEvents.onShowDestination);
 	$('#destinations-create').on('submit', destinationEvents.onCreateDestination);
 	$('#delete-destination').on('submit', destinationEvents.onDestroyDestination);
-	$('#destinations-display').on(
-		'click',
-		'.destinations-destroy-dynamic',
-		destinationEvents.onDynamicDestroyDestination
-	);
-	$('#destinations-display').on(
-		'submit',
-		'.destinations-update-dynamic',
-		destinationEvents.onDynamicUpdateDestination
-	);
+	$('#destinations-display').on('click','.destinations-destroy-dynamic',destinationEvents.onDynamicDestroyDestination	);
+	$('#destinations-display').on('submit','.destinations-update-dynamic',destinationEvents.onDynamicUpdateDestination);
+	
 });

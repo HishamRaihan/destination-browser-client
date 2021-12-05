@@ -38,9 +38,9 @@ const onIndexDestinationsSuccess = (responseData) => {
 
 	destinations.forEach((destination) => {
 		destinationHtml += `
-        <div class="col-lg-4 col-sm-6">
-				<div class"destinationCardDisplay"
-         <h4>Place: ${destination.place}<h4/>
+        <div>
+				<div class="destinationCardDisplay"
+         <h2>Place: ${destination.place}</h2>
         <p>Month Traveled: ${destination.monthTraveled}</p>
         <p>Days Stayed: ${destination.daysStayed}</p>
         <p>Moneyz Spent: ${destination.moneySpent}</p>

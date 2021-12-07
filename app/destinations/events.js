@@ -4,7 +4,7 @@ const ui = require('./ui');
 
 const onIndexDestinations = (event) => {
 	event.preventDefault();
-	console.log('all destinations coming right up!');
+	console.log('Heres all Destinations!');
 	api.index().then(ui.onIndexDestinationsSuccess).catch(ui.onError);
 };
 

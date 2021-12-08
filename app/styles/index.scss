@@ -1,0 +1,118 @@
+$primary:  #d58c33;
+$secondary: #354f52;
+@import '~bootstrap/scss/bootstrap';
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700&display=swap');
+// make it fire
+body{
+  margin-top: 5rem;
+  // display: flex;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1473442240418-452f03b7ae40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGVzdGluYXRpb258ZW58MHx8MHx8&w=1000&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  color: white;
+}
+
+ h1{
+    font-size: 62px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20rem;
+     font-family: 'Raleway', sans-serif;
+}
+// .border {
+//   margin: 20px;
+//   padding: 20px;
+//   border: none !important;
+// }
+#before-sign-in{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  .border {
+  margin: 20px;
+  padding: 20px;
+  border: none !important;
+}
+}
+.ss-form{
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  width: 24rem;
+  margin-left: 25rem;
+  background: transparent;
+}
+legend{
+   font-family: 'Raleway', sans-serif;
+}
+  input{
+    // margin-top: 5px;
+    // margin-bottom: 5px;
+    margin: -1px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+  }
+  textarea.form-control {
+    min-height: calc(1.5em + 0.75rem + 2px);
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+  #front-card{
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    text-align: left;
+    border: none;
+  }
+  #destinations-display{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .text-success{
+    color: white !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 200
+  }
+  .btn{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    height:45px ;
+    width: 10rem;
+}
+
+.btn:hover{
+    background: #fff;
+    color: #000;
+}
+  #after-sign-in{
+    display: none;
+  }
+
+  // code pen
+
+ 
